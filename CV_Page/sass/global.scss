@@ -1,0 +1,44 @@
+$primary: #5E63C2; $secondary:#DAECEB; $accent:#D2CDFF;
+
+body::before{
+    display: block;
+    content:'';
+    height: 60px;
+}
+
+
+nav{
+    background-color: $primary;
+}
+.navbar-dark .navbar-brand{
+    color: $secondary;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: $secondary;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: $accent;
+}
+#about{
+    background-color: $primary;
+    color: $secondary;
+    height: 100vh;
+    h1{
+        color: $secondary;
+        span{
+            color: $accent;
+        }
+    }
+}
+.btn-primary{
+    background-color: $accent;
+    border-color: $accent;
+    color: $primary;
+}
+#lenguages{
+    background-color:$accent;
+    color: $primary;
+    h2{
+        color: $primary;
+    }
+}

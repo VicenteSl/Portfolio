@@ -1,0 +1,51 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+nav {
+  background-color: #5E63C2;
+}
+
+.navbar-dark .navbar-brand {
+  color: #DAECEB;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #DAECEB;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #D2CDFF;
+}
+
+#about {
+  background-color: #5E63C2;
+  color: #DAECEB;
+  height: 100vh;
+}
+
+#about h1 {
+  color: #DAECEB;
+}
+
+#about h1 span {
+  color: #D2CDFF;
+}
+
+.btn-primary {
+  background-color: #D2CDFF;
+  border-color: #D2CDFF;
+  color: #5E63C2;
+}
+
+#lenguages {
+  background-color: #D2CDFF;
+  color: #5E63C2;
+}
+
+#lenguages h2 {
+  color: #5E63C2;
+}
+/*# sourceMappingURL=global.css.map */
